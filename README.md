@@ -22,8 +22,7 @@ Esse site foi feito para colocar em prática o que eu aprendi assistindo algumas
 
 1. Você pode clonar esse repositório ou apenas baixar os arquivos.
 2. Abra o arquivo `index.html` no seu navegador e pronto, você vai ver o site funcionando!
-3. Fique à vontade para mexer no código, alterar o que quiser ou até melhorar o design.
-
+3. Ou abra esse esse link onde o site está hospedado: https://agencia-digital-bice.vercel.app/. 
 ## Agradecimento
 
 - Ao Professor Dimitri que me ensinou o caminho para criar o site.
