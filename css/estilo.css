@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Pattaya&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+* {
+   box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto Flex", serif;
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;   
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+    cursor: pointer;
+}
+
+.logo h1 {
+    font-family: "Pattaya", serif;
+    color:#01e7dd;
+    font-size: 34px;
+
+}
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid greenyellow; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color:#01e7dd;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+.menu a:hover {
+  color: #8953ff;
+  border-top: 4px solid #8953ff;
+}
+
+#botao {
+    background:#01e7dd;
+    padding: 10px 25px;
+    color:white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background:#8953ff;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;   
+    /* border: 1px solid black;   */
+    cursor:pointer;
+}
+
+/* Desenvolvido por Gabriel - github.com/gabxso */
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #01e7dd;
+    padding: 0;
+    margin: 0;
+}
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #8953ff;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.contact-btn:hover {
+    background:#01e7dd;
+
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+section {
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+        text-align: center;
+      }
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Pattaya", serif;
+    font-weight: bold;
+    color: #01e7dd;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #8953ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #8953ff;
+    color: white;
+    padding: 40px;
+
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-test {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #01e7dd, #8953ff);
+    text-align: center;
+    border-top: 1px solid #8953ff;
+}
+
+footer {
+    color: white;
+}
+
+.agencia {
+    font-family: "Pattaya", serif;
+    font-size: 34px;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
